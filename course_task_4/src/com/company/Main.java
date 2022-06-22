@@ -76,8 +76,8 @@ public class Main {
         sort_ret = sort_ret+sorted_buffer[7]+"]";
 
 
-        if(used == 1){
-            med0=med1=7;
+        if(used%2== 1){
+            med0=med1=(8-used/2)-1;
         }
             median = sorted_buffer[med0]+sorted_buffer[med1];
             median = median/2;
